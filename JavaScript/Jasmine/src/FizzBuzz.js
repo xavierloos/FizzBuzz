@@ -19,4 +19,5 @@ class FizzBuzz {
             return number
         }
     }
+
 }
