@@ -8,4 +8,9 @@ class FizzBuzz {
     isDivisibleBy15(number) {
         return (number % 15 === 0)
     }
+    says(number) {
+        if (number % 3 === 0) {
+            return "FIZZ"
+        }
+    }
 }
