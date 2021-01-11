@@ -39,4 +39,9 @@ describe("FizzBuzz", function () {
             expect(fizzbuzz.says(3)).toEqual("FIZZ");
         });
     })
+    describe("when playing, says", function () {
+        it("BUZZ if divisible by 5", function () {
+            expect(fizzbuzz.says(5)).toEqual("BUZZ");
+        });
+    })
 })
