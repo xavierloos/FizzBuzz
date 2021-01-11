@@ -27,6 +27,7 @@ describe("FizzBuzz", function () {
             expect(fizzbuzz.isDivisibleBy15(11)).toBe(false);
         });
     })
+    // FIZZBUZZ
     describe("when playing, says", function () {
         it("FIZZ if divisible by 3", function () {
             expect(fizzbuzz.says(3)).toEqual("FIZZ");
