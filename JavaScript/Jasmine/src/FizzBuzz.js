@@ -9,7 +9,9 @@ class FizzBuzz {
         return (number % 15 === 0)
     }
     says(number) {
-        if (number % 3 === 0) {
+        if (number % 15 === 0) {
+            return "FIZZBUZZ"
+        } else if (number % 3 === 0) {
             return "FIZZ"
         } else if (number % 5 === 0) {
             return "BUZZ"

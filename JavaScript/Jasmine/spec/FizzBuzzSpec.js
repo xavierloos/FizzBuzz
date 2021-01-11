@@ -44,4 +44,9 @@ describe("FizzBuzz", function () {
             expect(fizzbuzz.says(5)).toEqual("BUZZ");
         });
     })
+    describe("when playing, says", function () {
+        it("FIZZBUZZ if divisible by 15", function () {
+            expect(fizzbuzz.says(15)).toEqual("FIZZBUZZ");
+        });
+    })
 })
