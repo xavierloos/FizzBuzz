@@ -15,6 +15,8 @@ class FizzBuzz {
             return "FIZZ"
         } else if (number % 5 === 0) {
             return "BUZZ"
+        } else {
+            return number
         }
     }
 }

@@ -49,4 +49,9 @@ describe("FizzBuzz", function () {
             expect(fizzbuzz.says(15)).toEqual("FIZZBUZZ");
         });
     })
+    describe("when playing, says", function () {
+        it("number unless divisible by 3,5 or 15", function () {
+            expect(fizzbuzz.says(11)).toEqual(11);
+        });
+    })
 })
