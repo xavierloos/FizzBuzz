@@ -31,4 +31,10 @@ describe("FizzBuzz", function () {
             expect(fizzbuzz.isDivisibleBy15(15)).toBe(true);
         });
     })
+    describe("knows when an number is NOT", function () {
+        it("divisible by 3 & 5", function () {
+            fizzbuzz = new FizzBuzz();
+            expect(fizzbuzz.isDivisibleBy15(11)).toBe(false);
+        });
+    })
 })
