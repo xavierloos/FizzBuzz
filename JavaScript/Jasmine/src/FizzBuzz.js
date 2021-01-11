@@ -5,4 +5,7 @@ class FizzBuzz {
     isDivisibleBy5(number) {
         return (number % 5 === 0)
     }
+    isDivisibleBy15(number) {
+        return (number % 15 === 0)
+    }
 }
