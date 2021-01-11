@@ -11,6 +11,9 @@ Fizzbuzz is a simple coding challenge, often described as a code kata. The objec
 * When complete we should be able to play in irb like so:
 
 When complete we should be able to play in irb like so:
+
+## Ruby & RSpec
+
 ```
 irb
 2.2.1 :001 > require './lib/fizzbuzz'
@@ -36,4 +39,31 @@ true
 18 --> fizz
 19 --> 19
 20 --> buzz
+```
+
+## JavasScript & Jasmine
+
+In the javascript console:
+
+```
+> var fizzBuzz = new FizzBuzz();
+undefined
+> for (var i = 1; i <= 15; i++) {
+  console.log(fizzBuzz.says(i));
+}
+1
+2
+FIZZ
+4
+BUZZ
+FIZZ
+7
+8
+FIZZ
+BUZZ
+11
+FIZZ
+13
+14
+FIZZBUZZ
 ```
